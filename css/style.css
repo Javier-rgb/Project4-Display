@@ -7,3 +7,37 @@
 html{
     font-size: 62.5%;
 }
+
+/* Positions */
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+img{
+    width: 75%;
+    max-width: 500px;
+    max-height: 500px;
+}
+div{
+    position: relative;
+    left: 150px; top:25px;
+    width: 25%;
+    border-radius: 15%;
+    border: 5px aqua solid;
+    background-color: plum;
+    max-width: 200px;
+    min-height: 50px;
+    /*margin-right: 150px; margin-left: 150px;*/
+}
+h1{
+    position: relative;
+    top: 12px;  bottom: 12px;
+    left: 10px; right: 10px;
+    width: 80%;
+    min-height: 15px;
+    max-width: 200px;
+    background-color: cadetblue;
+    font-size: 2rem;
+    
+}
