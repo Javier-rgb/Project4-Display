@@ -6,12 +6,12 @@
 
 html{
     font-size: 62.5%;
+    width: 100vw;
+    height: 100vh;
 }
 /* Header */
 header{
     background-color: rebeccapurple;
-    width: 100vw;
-    height: 30px;
     font-size: 20px;
 }
 
@@ -38,10 +38,21 @@ header{
     background-color: salmon;
 }
 /*---------------------------------*/
-
-
+/* Main */
 main{
+    width: 100%;
+}
+.sidebar {
+    min-height: 400px;
+    width: 25%;
+    display: inline-block;
+}
+
+.content {
     background-color: seagreen;
+    width: 74.5%;
+    min-height: 400px;
+    display: inline-block;
 }
 
 footer{
