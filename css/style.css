@@ -7,38 +7,3 @@
 html{
     font-size: 62.5%;
 }
-
-/* Positions */
-
-main{
-    width: 100vw;
-    height: 100vh;
-}
-img{
-    display: block;
-    max-width: 500px;
-    max-height: 500px;
-}
-div{
-    position: relative;
-    /*left: auto; right: auto; top:25px;*/
-    width: 25%;
-    border-radius: 15%;
-    border: 5px aqua solid;
-    background-color: plum;
-    max-width: 200px;
-    min-height: 50px;
-    display: inline-block;
-}
-h1{
-    min-height: 15px;
-    max-width: 200px;
-    background-color: cadetblue;
-    font-size: 2rem;
-    display:inline-block;
-}
-
-section{
-    width: 75%;
-    display: inline-block;
-}
