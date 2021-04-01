@@ -7,3 +7,43 @@
 html{
     font-size: 62.5%;
 }
+/* Header */
+header{
+    background-color: rebeccapurple;
+    width: 100vw;
+    height: 30px;
+    font-size: 20px;
+}
+
+.nav-menu{
+    background-color: royalblue;
+    width:45%;
+    position: relative;
+    display: inline-block;
+    left: 200px; bottom: 3px;
+}
+
+.nav-menu li{
+    background-color: powderblue;
+    width: 23%;
+    display: inline-block;
+    height: 20px;
+}
+
+
+.kpoplogo {
+    width: 25%;
+    height: 23px;
+    display: inline-block;
+    background-color: salmon;
+}
+/*---------------------------------*/
+
+
+main{
+    background-color: seagreen;
+}
+
+footer{
+    background-color: pink;
+}
