@@ -15,29 +15,30 @@ main{
     height: 100vh;
 }
 img{
-    width: 75%;
+    display: block;
     max-width: 500px;
     max-height: 500px;
 }
 div{
     position: relative;
-    left: 150px; top:25px;
+    /*left: auto; right: auto; top:25px;*/
     width: 25%;
     border-radius: 15%;
     border: 5px aqua solid;
     background-color: plum;
     max-width: 200px;
     min-height: 50px;
-    /*margin-right: 150px; margin-left: 150px;*/
+    display: inline-block;
 }
 h1{
-    position: relative;
-    top: 12px;  bottom: 12px;
-    left: 10px; right: 10px;
-    width: 80%;
     min-height: 15px;
     max-width: 200px;
     background-color: cadetblue;
     font-size: 2rem;
-    
+    display:inline-block;
+}
+
+section{
+    width: 75%;
+    display: inline-block;
 }
