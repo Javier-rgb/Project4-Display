@@ -13,6 +13,9 @@ html{
 header{
     background-color: rebeccapurple;
     font-size: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
 }
 
 .nav-menu{
@@ -39,22 +42,37 @@ header{
 }
 /*---------------------------------*/
 /* Main */
+
 main{
     width: 100%;
+    display:inline-block;
 }
+
 .sidebar {
-    min-height: 400px;
+    background-color: slategray;
+    min-height: 800px;
     width: 25%;
     display: inline-block;
 }
 
+.sidebar li{
+    width: 80%;
+    min-height: 50px;
+    background-color: tan;
+    margin-bottom: 5px;
+}
+
 .content {
     background-color: seagreen;
-    width: 74.5%;
-    min-height: 400px;
-    display: inline-block;
+    width: 70%;
+    min-height: 800px;
+    display: inline-block;    
 }
 
 footer{
-    background-color: pink;
+    background-color: rebeccapurple;
+    font-size: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0px;
 }
