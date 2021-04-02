@@ -18,11 +18,15 @@ header{
     top: 0px;
 }
 
+nav{
+    display: flex;
+}
+
 .nav-menu{
     background-color: royalblue;
     width:45%;
     position: relative;
-    display: inline-block;
+    /*display: inline-block;*/
     left: 200px; bottom: 3px;
 }
 
@@ -37,7 +41,7 @@ header{
 .kpoplogo {
     width: 25%;
     height: 23px;
-    display: inline-block;
+    /*display: inline-block;*/
     background-color: salmon;
 }
 /*---------------------------------*/
@@ -45,22 +49,28 @@ header{
 
 main{
     width: 100%;
-    display:inline-block;
+    display: flex;
 }
 
 .sidebar {
     background-color: slategray;
     min-height: 800px;
     width: 25%;
-    display: inline-block;
+    /*display: inline-block;
     overflow:hidden;
-    clear:both;
+    clear:both;*/
+    display: flex;
+    justify-content: center;
+
 }
 
 .sidebar ul{
-    width: 100%;
-    display: inline-block;
-    justify-content: center;
+    width: 95%;
+    /*display: inline-block;*/
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    justify-content: center;   
 }
 
 .sidebar li{
@@ -68,7 +78,8 @@ main{
     min-height: 50px;
     background-color: tan;
     margin-bottom: 15px;
-    margin-left: auto; margin-right: auto;
+    max-height: 100px;
+    /*margin-left: auto; margin-right: auto;*/
     list-style: none;
     text-align: center;
     
@@ -79,8 +90,15 @@ main{
     background-color: seagreen;
     width: 70%;
     min-height: 800px;
-    display: inline-block;
-    overflow: hidden;    
+    display: flex;
+    justify-content: center;
+    /*display: inline-block;*/
+    /*overflow: hidden;    */
+}
+
+.content img{
+    max-height: 500px;
+    max-width: 500px;
 }
 
 footer{
