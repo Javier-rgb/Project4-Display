@@ -53,20 +53,34 @@ main{
     min-height: 800px;
     width: 25%;
     display: inline-block;
+    overflow:hidden;
+    clear:both;
+}
+
+.sidebar ul{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
 }
 
 .sidebar li{
     width: 80%;
     min-height: 50px;
     background-color: tan;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    margin-left: auto; margin-right: auto;
+    list-style: none;
+    text-align: center;
+    
+    
 }
 
 .content {
     background-color: seagreen;
     width: 70%;
     min-height: 800px;
-    display: inline-block;    
+    display: inline-block;
+    overflow: hidden;    
 }
 
 footer{
